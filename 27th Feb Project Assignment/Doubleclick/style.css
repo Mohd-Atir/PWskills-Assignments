@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#click button{
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #fefa04;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #000;
+}
