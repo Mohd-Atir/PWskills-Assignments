@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 235, 181);
+}
+div{
+    background-color: rgb(5, 250, 169);
+    height: 40%;
+    width: 30%;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    background-color: rgb(65, 85, 85);
+    color: #e6edf0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#todo-list{
+    position: relative;
+    left: -3%;
+}

@@ -1,0 +1,33 @@
+body{
+    height: 400vh;
+    background: #cba25b;
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background: #b1aeae;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #cf07a4;
+    border-radius: 2rem;
+    border: 0.2rem solid transparent;
+    background-clip: content-box;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div h1{
+    margin-top: 30%;
+    position: fixed;
+}
+
+div h2{
+    margin-top: 20%;
+}
