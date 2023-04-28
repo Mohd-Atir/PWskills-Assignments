@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reverse String After Delay</title>
+  </head>
+  <body>
+    <!-- <h1>Reverse String After Delay</h1>
+    <p>Enter a string to reverse:</p>
+    <input type="text" id="input" />
+    <button onclick="reverseString()">Reverse</button> -->
+
+    <script>
+    //   function reverseString() {
+    //     // Get input value
+    //     const input = document.getElementById("input").value;
+
+    //     // Delay for 2 seconds
+    //     setTimeout(() => {
+    //       // Reverse the string
+    //       const reversed = input.split("").reverse().join("");
+
+    //       // Output the reversed string
+    //       console.log(reversed);
+    //     }, 2000);
+    //   }
+    const reverseStr = (str) => {
+    setTimeout(() => {
+        const reversedStr = str.split("").reverse().join("");
+        console.log(reversedStr);
+    }, 2000);
+}
+console.log(reverseStr("Atir"));
+    </script>
+  </body>
+</html>
+
